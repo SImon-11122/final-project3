@@ -1,0 +1,54 @@
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  a {
+    margin: 20px;
+    text-decoration: none;
+    color: #e0ffff;
+  }
+  /* div {
+    padding: 140px;
+    align-items: center;
+    color: #f8f8ff;
+    justify-content: center;
+  } */
+  nav {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+  }
+  p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  } 
+  /*ตัวหนังสืออยู่ตรงกลาง*/
+  .lspacing-5{  
+    letter-spacing: -5px;  
+    /* ตัวเลขติดลบมาก ยิ่งทำให้ตัวอักษรชิดกัน */
+  }
+  .header {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  header {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    background: url(../assets/Drew\ Feig.gif) center / cover ;
+  }
+  .nav {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+  
+  

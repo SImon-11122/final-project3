@@ -1,0 +1,35 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: main; }
+.item3 { grid-area: right; }
+.item4 { grid-area: menu; }
+.item5 { grid-area: section; }
+.item6 { grid-area: footer; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main right right right '
+    'menu menu menu section section section '
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.grid-container > main {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 50px 0;
+  font-size: 40px;
+}
+/* .item1 {
+  background: url(AA5.jpg) right bottom no-repeat, 
+  url(AA5.jpg) left top repeat center / cover;
+  padding: 15px;
+} */
+.item1 {
+  background: url(../assets/AA5.jpg) center / cover ;
+  padding: 15px;
+}
